@@ -6,6 +6,13 @@ function personagem(nome, x, y){
 	
 }
 
+
+function arrastar(nome) {
+  nome.position.x = mouseX;
+  nome.position.y = mouseY;
+  
+}
+
 function PegaImagem(a){
   return 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+a+'.png';
 }
