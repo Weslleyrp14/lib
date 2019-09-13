@@ -16,6 +16,11 @@ function naoRepetir(){
 function tamanhoLinha(){
         strokeWeight(2);
 }
+
+function elipse(...args) {
+	return ellipse(...args);
+}
+
 function retangulo(...args) {
 	return rect(...args);
 }
