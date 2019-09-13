@@ -65,7 +65,7 @@ function mudaFrame(...args){
 function clona(...args){
   return clone(...args);
 }
-function desenha(...args){
+function desenhar(...args){
   return draw(...args);
 }
 function pegaFrame(...args){
