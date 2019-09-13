@@ -6,6 +6,10 @@ function personagem(nome, x, y){
 	
 }
 
+function PegaImagem(a){
+  return 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+a+'.png';
+}
+
 
 function criaCanvas(){
         createCanvas(550,550);
