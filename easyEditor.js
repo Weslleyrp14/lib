@@ -1,12 +1,3 @@
-function personagem(nome, x, y){
-    img = createImg('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+nome+'.png');
-    img.hide();
-    image(img, x, y);
-    print('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+nome+'.png');
-	
-}
-
-
 function arrastar(nome) {
   nome.position.x = mouseX;
   nome.position.y = mouseY;
