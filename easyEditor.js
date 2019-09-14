@@ -55,8 +55,9 @@ function sorteiaNumero() {
 function carregaAnimacao(...args){
   return loadAnimation(...args);
 }
-
-
+function animacao(...args){
+  return animation(...args);
+}
 function configura(...args){
   return setup(...args);
 }
