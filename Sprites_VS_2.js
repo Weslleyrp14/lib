@@ -11,7 +11,7 @@ function carregarPersonagens(){
 	bolha = loadAnimation('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/bolha-1.png');
 	bolha2 = loadAnimation('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/bolha-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/bolha-4.png');
 	sol = loadAnimation('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/sol-1.png');
-	sol2 = loadAnimation('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/sol-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/sol-4.png');
+	sol2 = loadAnimation('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/sol-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/sol-3.png');
 }
 
 
