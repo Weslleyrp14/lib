@@ -1,7 +1,6 @@
-function arrastar(nome) {
-  nome.position.x = mouseX;
-  nome.position.y = mouseY;
-  
+function carregar(){
+  carregarPersonagens();
+  carregarFundos();
 }
 
 function PegaImagem(a){
