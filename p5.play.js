@@ -1879,7 +1879,7 @@ function Sprite(pInst, _x, _y, _w, _h) {
   */
   this.addImage = function()
   {
-    if(typeof arguments[1] instanceof p5.Image)
+    if(typeof arguments[0] === 'string' || arguments[1] instanceof p5.Image)
       this.addAnimation(arguments[0], arguments[1]);
     else if(arguments[0] instanceof p5.Image)
       this.addAnimation('normal', arguments[0]);
