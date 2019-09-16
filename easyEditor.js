@@ -186,5 +186,13 @@ function texto(...args){
   return text(...args);
 }
 
+function tamanhoDaBorda(...args){
+  return strokeWeight(...args);
+}
+
+function borda(...args){
+  return stroket(...args);
+}
+
 
 
