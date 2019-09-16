@@ -1,8 +1,3 @@
-function carregar(){
-  carregarPersonagens();
-  carregarFundos();
-}
-
 function PegaImagem(a){
   return 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+a+'.png';
 }
