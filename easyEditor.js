@@ -198,5 +198,20 @@ function borda(...args){
   return stroke(...args);
 }
 
-
+// Controlar o Sprite com as teclas do teclado
+function setasTeclado(nome, v) {
+  if (keyCode == RIGHT_ARROW) {
+    nome.setSpeed(v, 0);
+  }
+  else if (keyCode == DOWN_ARROW) {
+    nome.setSpeed(v, 90);
+  }
+  else if (keyCode == LEFT_ARROW) {
+    nome.setSpeed(v, 180);
+  }
+  else if (keyCode == UP_ARROW) {
+    nome.setSpeed(v, 270);
+   }
+  return false;
+}
 
