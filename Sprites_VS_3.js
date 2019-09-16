@@ -12,11 +12,11 @@ for(var i = 0; i<j; i++) {
 }
 
 // Funções que criam os Sprites
-function fantasma1(x, y){
+function fantasma(x, y){
   var fantasmaimg1 = PegaImagem('fantasma-1');
   var fantasmaimg2 = PegaImagem('fantasma-7');
-  fantasma1 = createSprite(x, y);
-  fantasma1.addAnimation('normal', fantasmaimg1, fantasmaimg2);
+  fantasma = createSprite(x, y);
+  fantasma.addAnimation('normal', fantasmaimg, fantasmaimg);
 }
 
 function fantasma2(x, y){
