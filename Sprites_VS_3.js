@@ -1,3 +1,17 @@
+// Função que adicona um número aleátorio de moedas em posições aleatórias
+
+	//A letra "j" decido o número de moedas que devem aparecer
+	//A letra "q" indica qual grupo a moeda pertence
+	
+function sorteiaMoedas(j, q) {
+for(var i = 0; i<j; i++) {
+    var coin = createSprite(random(100, width-100), random(100, height-100));
+    coin.addAnimation('girando', PegaImagem('moeda_girando_1'), PegaImagem('moeda_girando_6'));
+  coin.addToGroup(q);
+      }
+
+
+// Função que cria os Sprites
 function fantasma1(x, y){
   var fantasmaimg1 = PegaImagem('fantasma-1');
   var fantasmaimg2 = PegaImagem('fantasma-7');
