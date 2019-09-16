@@ -1,7 +1,15 @@
+
+// Função que busca as imagens no github apenas pelo nome
 function PegaImagem(a){
   return 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+a+'.png';
 }
 
+
+// Função para arrastar o Sprite
+function arrastar(nome) {
+  nome.position.x = mouseX;
+  nome.position.y = mouseY;
+}
 
 function criaCanvas(){
         createCanvas(550,550);
