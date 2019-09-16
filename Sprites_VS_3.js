@@ -16,7 +16,7 @@ function fantasma(x, y){
   var fantasmaimg1 = PegaImagem('fantasma-1');
   var fantasmaimg2 = PegaImagem('fantasma-7');
   fantasma = createSprite(x, y);
-  fantasma.addAnimation('normal', fantasmaimg, fantasmaimg);
+  fantasma.addAnimation('normal', fantasmaimg1, fantasmaimg2);
 }
 
 function fantasma2(x, y){
