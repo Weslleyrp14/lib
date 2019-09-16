@@ -9,6 +9,7 @@ for(var i = 0; i<j; i++) {
     coin.addAnimation('girando', PegaImagem('moeda_girando_1'), PegaImagem('moeda_girando_6'));
   coin.addToGroup(q);
       }
+}
 
 
 // Função que cria os Sprites
