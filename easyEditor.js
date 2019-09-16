@@ -194,5 +194,9 @@ function borda(...args){
   return stroket(...args);
 }
 
+function borda(...args){
+  return stroke(...args);
+}
+
 
 
