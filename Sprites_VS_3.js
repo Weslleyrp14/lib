@@ -12,5 +12,11 @@ function monstro1(x, y){
   monstro1.addAnimation('normal', monstroimg1);
 }
 
+function moeda1(x, y){
+  var moedaimg1 = PegaImagem('moeda');
+  moeda1 = createSprite(x, y);
+  moeda1.addAnimation('normal', moedaimg1);
+}
+
 
 
