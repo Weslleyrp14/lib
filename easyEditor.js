@@ -11,6 +11,7 @@ function arrastar(nome) {
   nome.position.y = mouseY;
 }
 
+// Tradução das funções
 function criaCanvas(){
         createCanvas(550,550);
 }
@@ -168,3 +169,22 @@ function mudaAnimacao(...args){
 function mudaImagem(...args){
   return changeImage(...args);
 }
+
+function cor(...args){
+  return fill(...args);
+}
+
+function tamanhoTexto(...args){
+  return textSize(...args);
+}
+
+function alinharTexto(...args){
+  return textAlign(...args);
+}
+
+function texto(...args){
+  return text(...args);
+}
+
+
+
