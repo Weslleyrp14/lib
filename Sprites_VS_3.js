@@ -279,3 +279,9 @@ function astronauta2(x, y){
   astronauta2 = createSprite(x, y);
   astronauta2.addAnimation('normal', astronautaimg1, astronautaimg2);
 }
+
+function meteoro(x, y){
+  var  meteoroimg1 = PegaImagem('meteoro');
+  meteoro = createSprite(x, y);
+  meteoro.addAnimation('normal', meteoroimg1);
+}
