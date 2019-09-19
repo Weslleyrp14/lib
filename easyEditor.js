@@ -42,8 +42,8 @@ function arco(...args) {
 	return arc(...args);
 }
 
-function corDeFundo(){
-  	background('lightgrey');
+function corDeFundo(cor){
+  	background(cor);
 }
 function sorteiaNumero() {
 
