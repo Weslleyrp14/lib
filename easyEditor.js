@@ -224,3 +224,8 @@ function esquerdaEdireita(nome, v) {
       nome.position.x -= v;
     }
 }
+
+function posicionar(nome, x, y){
+  nome.position.x = x;
+  nome.position.y = y;
+}
