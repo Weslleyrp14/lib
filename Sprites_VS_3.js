@@ -241,3 +241,10 @@ function triangulo2(x, y){
    triangulo2 = createSprite(x, y);
    triangulo2.addAnimation('normal',  triangulo2img1);
 }
+
+function alienigena(x, y){
+  var  alienigenaimg1 = PegaImagem('alien_1');
+  var alienigenaimg2 = PegaImagem('alien_6');
+  alienigena = createSprite(x, y);
+  alienigena.addAnimation('normal', alienigenaimg1, alienigenaimg2);
+}
