@@ -229,3 +229,19 @@ function posicionar(nome, x, y){
   nome.position.x = x;
   nome.position.y = y;
 }
+
+function mudeYpor(nome, j) {
+  nome.position.y = nome.position.y + j;  
+}
+
+function mudeXpor(nome, j) {
+  nome.position.x = nome.position.x + j;  
+}
+
+function mudeYpara(nome, j) {
+  nome.position.y = j;  
+}
+
+function mudeXpara(nome, j) {
+  nome.position.x = j;  
+}
