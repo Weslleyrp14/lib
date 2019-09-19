@@ -266,5 +266,10 @@ function alienigena2(x, y){
   alienigena2.addAnimation('normal', alienigena2img1, alienigena2img2, alienigena2img3, alienigena2img4, alienigena2img5, alienigena2img6, alienigena2img7, alienigena2img8, alienigena2img9, alienigena2img10, alienigena2img11, alienigena2img12);
 }
 
-
+function astronauta(x, y){
+  var  astronautaimg1 = PegaImagem('astronauta_1');
+  var astronautaimg2 = PegaImagem('astronauta_6');
+  astronauta = createSprite(x, y);
+  astronauta.addAnimation('normal', astronautaimg1, astronautaimg2);
+}
 
