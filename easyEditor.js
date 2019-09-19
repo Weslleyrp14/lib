@@ -262,3 +262,7 @@ function posiçãoX(nome) {
 function posiçãoY(nome) {
   return nome.position.y;
 }
+
+function encostando(nome1, nome2) {
+  return nome1.overlap(nome2)  
+}
