@@ -273,3 +273,9 @@ function astronauta(x, y){
   astronauta.addAnimation('normal', astronautaimg1, astronautaimg2);
 }
 
+function astronauta2(x, y){
+  var  astronautaimg1 = PegaImagem('astronauta_voando_1');
+  var astronautaimg2 = PegaImagem('astronauta_voando_14');
+  astronauta2 = createSprite(x, y);
+  astronauta2.addAnimation('normal', astronautaimg1, astronautaimg2);
+}
