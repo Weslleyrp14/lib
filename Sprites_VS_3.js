@@ -248,3 +248,13 @@ function alienigena(x, y){
   alienigena = createSprite(x, y);
   alienigena.addAnimation('normal', alienigenaimg1, alienigenaimg2);
 }
+
+function alienigena2(x, y){
+  var  alienigena2img1 = PegaImagem('alien_2_1');
+  var alienigena2img2 = PegaImagem('alien_2_12');
+  alienigena2 = createSprite(x, y);
+  alienigena2.addAnimation('normal', alienigena2img1, alienigena2img2);
+}
+
+
+
