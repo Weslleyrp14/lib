@@ -245,3 +245,11 @@ function mudeYpara(nome, j) {
 function mudeXpara(nome, j) {
   nome.position.x = j;  
 }
+
+function aponteParaDireção(nome, j) {
+  nome.rotation = j;
+}
+
+function girar(nome, j) {
+  nome.rotationSpeed = j;
+}
