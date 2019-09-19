@@ -250,10 +250,20 @@ function alienigena(x, y){
 }
 
 function alienigena2(x, y){
-  var  alienigena2img1 = PegaImagem('alien_2_1');
-  var alienigena2img2 = PegaImagem('alien_2_12');
+  var  alienigena2img1 = PegaImagem('alien-gato (1)');
+  var alienigena2img2 = PegaImagem('alien-gato (2)');
+  var alienigena2img3 = PegaImagem('alien-gato (3)');
+  var alienigena2img4 = PegaImagem('alien-gato (4)');
+  var alienigena2img5 = PegaImagem('alien-gato (5)');
+  var alienigena2img6 = PegaImagem('alien-gato (6)');
+  var alienigena2img7 = PegaImagem('alien-gato (7)');
+  var alienigena2img8 = PegaImagem('alien-gato (8)');
+  var alienigena2img9 = PegaImagem('alien-gato (9)');
+  var alienigena2img10 = PegaImagem('alien-gato (10)');
+  var alienigena2img11 = PegaImagem('alien-gato (11)');
+  var alienigena2img12 = PegaImagem('alien-gato (12)');
   alienigena2 = createSprite(x, y);
-  alienigena2.addAnimation('normal', alienigena2img1, alienigena2img2);
+  alienigena2.addAnimation('normal', alienigena2img1, alienigena2img2, alienigena2img3, alienigena2img4, alienigena2img5, alienigena2img6, alienigena2img7, alienigena2img8, alienigena2img9, alienigena2img10, alienigena2img11, alienigena2img12);
 }
 
 
