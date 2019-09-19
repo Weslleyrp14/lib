@@ -215,3 +215,12 @@ function setasTeclado(nome, v) {
   return false;
 }
 
+// Controlar o Sprite com as teclas do teclado somente para a esquerda e direita
+function esquerdaEdireita(nome, v) {
+    if (keyDown(RIGHT_ARROW) && nome.position.x < (width - (nome.width / 2))) {
+      nome.position.x += v;
+    }
+    if (keyDown(LEFT_ARROW) && nome.position.x > (astronauta2.width / 2)) {
+      nome.position.x -= v;
+    }
+}
