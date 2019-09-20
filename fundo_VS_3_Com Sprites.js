@@ -21,9 +21,9 @@ function carregarFundos(){
    
    espacial8 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-8.png');    
   
-   espacial9 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-9.png');      
+   espacial9 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-9.png'); 
    
-   
+   fimEspacial = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/fim_espaço.png');       
    
 }
 
