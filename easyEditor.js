@@ -266,3 +266,7 @@ function posiçãoY(nome) {
 function encostando(nome1, nome2) {
   return nome1.overlap(nome2)  
 }
+
+function esconder(nome) {
+  nome.remove();
+}
