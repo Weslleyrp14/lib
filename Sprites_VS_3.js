@@ -285,3 +285,126 @@ function meteoro(x, y){
   meteoro = createSprite(x, y);
   meteoro.addAnimation('normal', meteoroimg1);
 }
+
+function astronautaCabeça(x, y){
+  var  astronautaCabeçaimg1 = PegaImagem('Astronauta_cabeca');
+  astronautaCabeça = createSprite(x, y);
+  astronautaCabeça.addAnimation('normal', astronautaCabeçaimg1);
+}
+
+
+function astronautaCorpo(x, y){
+  var  astronautaCorpoimg1 = PegaImagem('Astronauta_corpo');
+  astronautaCorpo = createSprite(x, y);
+  astronautaCorpo.addAnimation('normal', astronautaCorpoimg1);
+}
+
+
+
+function alienigena1Cabeça(x, y){
+  var  alienigena1Cabeçaimg1 = PegaImagem('Alien_1_cabeca');
+  alienigena1Cabeça = createSprite(x, y);
+  alienigena1Cabeça.addAnimation('normal', alienigena1Cabeçaimg1);
+}
+
+
+function alienigena1Corpo(x, y){
+  var  alienigena1Corpoimg1 = PegaImagem('Alien_1_corpo');
+  alienigena1Corpo = createSprite(x, y);
+  alienigena1Corpo.addAnimation('normal', alienigena1Corpoimg1);
+}
+
+function alienigena2Cabeça(x, y){
+  var  alienigena2Cabeçaimg1 = PegaImagem('Alien_2_cabeca');
+  alienigena2Cabeça = createSprite(x, y);
+  alienigena2Cabeça.addAnimation('normal', alienigena2Cabeçaimg1);
+}
+
+
+function alienigena2Corpo(x, y){
+  var  alienigena2Corpoimg1 = PegaImagem('Alien_2_corpo');
+  alienigena2Corpo = createSprite(x, y);
+  alienigena2Corpo.addAnimation('normal', alienigena2Corpoimg1);
+}
+
+
+function alienigena3Cabeça(x, y){
+  var  alienigena3Cabeçaimg1 = PegaImagem('Alien_3_cabeca');
+  alienigena3Cabeça = createSprite(x, y);
+  alienigena3Cabeça.addAnimation('normal', alienigena3Cabeçaimg1);
+}
+
+
+function alienigena3Corpo(x, y){
+  var  alienigena3Corpoimg1 = PegaImagem('Alien_3_corpo');
+  alienigena3Corpo = createSprite(x, y);
+  alienigena3Corpo.addAnimation('normal', alienigena3Corpoimg1);
+}
+
+function alienigena4Cabeça(x, y){
+  var  alienigena4Cabeçaimg1 = PegaImagem('Alien_4_cabeca');
+  alienigena4Cabeça = createSprite(x, y);
+  alienigena4Cabeça.addAnimation('normal', alienigena4Cabeçaimg1);
+}
+
+
+function alienigena4Corpo(x, y){
+  var  alienigena4Corpoimg1 = PegaImagem('Alien_4_corpo');
+  alienigena4Corpo = createSprite(x, y);
+  alienigena4Corpo.addAnimation('normal', alienigena4Corpoimg1);
+}
+
+
+
+function alienigena5Cabeça(x, y){
+  var  alienigena5Cabeçaimg1 = PegaImagem('Alien_5_cabeca');
+  alienigena5Cabeça = createSprite(x, y);
+  alienigena5Cabeça.addAnimation('normal', alienigena5Cabeçaimg1);
+}
+
+
+function alienigena5Corpo(x, y){
+  var  alienigena5Corpoimg1 = PegaImagem('Alien_5_corpo');
+  alienigena5Corpo = createSprite(x, y);
+  alienigena5Corpo.addAnimation('normal', alienigena5Corpoimg1);
+}
+
+
+function alienigena6Cabeça(x, y){
+  var  alienigena6Cabeçaimg1 = PegaImagem('Alien_6_cabeca');
+  alienigena6Cabeça = createSprite(x, y);
+  alienigena6Cabeça.addAnimation('normal', alienigena6Cabeçaimg1);
+}
+
+
+function alienigena6Corpo(x, y){
+  var  alienigena6Corpoimg1 = PegaImagem('Alien_6_corpo');
+  alienigena6Corpo = createSprite(x, y);
+  alienigena6Corpo.addAnimation('normal', alienigena6Corpoimg1);
+}
+
+function alienigena7Cabeça(x, y){
+  var  alienigena7Cabeçaimg1 = PegaImagem('Alien_7_cabeca');
+  alienigena7Cabeça = createSprite(x, y);
+  alienigena7Cabeça.addAnimation('normal', alienigena7Cabeçaimg1);
+}
+
+
+function alienigena7Corpo(x, y){
+  var  alienigena7Corpoimg1 = PegaImagem('Alien_7_corpo');
+  alienigena7Corpo = createSprite(x, y);
+  alienigena7Corpo.addAnimation('normal', alienigena7Corpoimg1);
+}
+
+function alienigena8Cabeça(x, y){
+  var  alienigena8Cabeçaimg1 = PegaImagem('Alien_8_cabeca');
+  alienigena8Cabeça = createSprite(x, y);
+  alienigena8Cabeça.addAnimation('normal', alienigena8Cabeçaimg1);
+}
+
+
+function alienigena8Corpo(x, y){
+  var  alienigena8Corpoimg1 = PegaImagem('Alien_8_corpo');
+  alienigena8Corpo = createSprite(x, y);
+  alienigena8Corpo.addAnimation('normal', alienigena8Corpoimg1);
+}
