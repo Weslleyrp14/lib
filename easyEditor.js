@@ -251,9 +251,12 @@ function aponteParaDireção(nome, j) {
 }
 
 function girar(nome, j) {
-  nome.rotationSpeed = j;
+  nome.rotation = j;
 }
 
+function girando(nome, j) {
+  nome.rotationSpeed = j;
+}
 
 function posiçãoX(nome) {
   return nome.position.x;
