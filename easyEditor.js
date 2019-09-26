@@ -273,3 +273,12 @@ function encostando(nome1, nome2) {
 function esconder(nome) {
   nome.remove();
 }
+
+function balançar(nome) {
+  nome.mouseActive = true;
+  if (nome.mouseIsOver){
+    nome.rotation = random(-20, 20);
+  } else {
+    nome.rotation = 0
+  }
+}
