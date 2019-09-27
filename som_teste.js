@@ -27,11 +27,5 @@ espacial6 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/mas
   nave2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/nave_espacial_2.png');     
   sound = loadSound('https://raw.githubusercontent.com/fabiojavaroni/som/master/doorbell.mp3');
 
-function fantasma(x, y){
-    var fantasmaimg1 = PegaImagem('fantasma-1');
-    var fantasmaimg2 = PegaImagem('fantasma-7');
-    fantasma = createSprite(x, y);
-    fantasma.addAnimation('normal', fantasmaimg1, fantasmaimg2);
-  }
 }
  
