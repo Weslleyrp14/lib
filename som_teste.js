@@ -39,6 +39,7 @@ var fantasma2img1 = PegaImagem('fantasma-andando-1');
 var fantasma2img2 = PegaImagem('fantasma-andando-4');
 fantasma2 = createSprite(x, y);
 fantasma2.addAnimation('normal', fantasma2img1, fantasma2img2);
+}
 
 function fundo(nome){
     createCanvas(500, 500);
