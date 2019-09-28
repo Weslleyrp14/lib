@@ -1,5 +1,5 @@
 function preload(){
-
+createCanvas(500, 500);
 
 
 espacial1 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-1.png');      
@@ -46,8 +46,7 @@ sound = loadSound('https://raw.githubusercontent.com/fabiojavaroni/som/master/do
  
 
 function fundo(nome){
-    createCanvas(500, 500);
-    background(nome);
+        background(nome);
   }
 
 
