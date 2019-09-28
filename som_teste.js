@@ -1,8 +1,6 @@
 function preload(){
 
-  function PegaImagem(a){
-    return 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+a+'.png';
-} 
+
 
 espacial1 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-1.png');      
 
