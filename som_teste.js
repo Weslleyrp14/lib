@@ -28,6 +28,9 @@ nave2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/
   
 sound = loadSound('https://raw.githubusercontent.com/fabiojavaroni/som/master/doorbell.mp3');
 
+//Sprite - Fantasma
+  fantasma = createSprite();
+  fantasma.addAnimation('normal', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-7.png');
 }
  
 
@@ -36,3 +39,10 @@ function fundo(nome){
     background(nome);
     drawSprites();  
   }
+
+
+function personagem(nome, x, y){
+  nome.position.y = y;  
+  nome.position.x = x;
+  drawSprite(nome);
+}
