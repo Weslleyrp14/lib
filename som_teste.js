@@ -1,5 +1,9 @@
 function preload(){
 
+  function PegaImagem(a){
+    return 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/'+a+'.png';
+} 
+
 espacial1 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-1.png');      
 
 espacial2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-2.png');      
@@ -34,6 +38,12 @@ sound = loadSound('https://raw.githubusercontent.com/fabiojavaroni/som/master/do
 
   fantasma2 = createSprite();
   fantasma2.addAnimation('normal', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-andando-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-andando-4.png');
+
+  var fantasma3img1 = PegaImagem('fantasma-rodando-1');
+  var fantasma3img2 = PegaImagem('fantasma-rodando-3');
+  fantasma3 = createSprite(x, y);
+  fantasma3.addAnimation('normal', fantasma3img1, fantasma3img2);
+
 }
  
 
