@@ -32,8 +32,8 @@ sound = loadSound('https://raw.githubusercontent.com/fabiojavaroni/som/master/do
   fantasma = createSprite();
   fantasma.addAnimation('normal', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-7.png');
 
-  fantasma = createSprite();
-  fantasma.addAnimation('normal', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-andando-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-andando-4.png');
+  fantasma2 = createSprite();
+  fantasma2.addAnimation('normal', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-andando-1.png', 'https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fantasma-andando-4.png');
 }
  
 
