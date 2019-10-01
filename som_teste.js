@@ -51,8 +51,6 @@ function fundo(nome){
   }
 
 
-function personagem(nome, x, y){
-  nome.position.y = y;  
-  nome.position.x = x;
+function personagem(nome){
   drawSprite(nome);
 }
