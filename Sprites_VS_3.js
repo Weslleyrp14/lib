@@ -408,3 +408,51 @@ function alienigena8Corpo(x, y){
   alienigena8Corpo = createSprite(x, y);
   alienigena8Corpo.addAnimation('normal', alienigena8Corpoimg1);
 }
+
+function planeta(x, y){
+  var planetaimg = PegaImagem('planeta 1');
+  planeta = createSprite(x, y);
+  planeta.addAnimation('normal', planetaimg);
+}
+
+function planeta2(x, y){
+  var planetaimg2 = PegaImagem('planeta 2');
+  planeta2 = createSprite(x, y);
+  planeta2.addAnimation('normal', planetaimg2);
+}
+
+function planeta3(x, y){
+  var planetaimg3 = PegaImagem('planeta 3');
+  planeta3 = createSprite(x, y);
+  planeta3.addAnimation('normal', planetaimg3);
+}
+
+function planeta4(x, y){
+  var planetaimg4 = PegaImagem('planeta 4');
+  planeta4 = createSprite(x, y);
+  planeta4.addAnimation('normal', planetaimg4);
+}
+
+function planeta5(x, y){
+  var planetaimg5 = PegaImagem('planeta 5');
+  planeta5 = createSprite(x, y);
+  planeta5.addAnimation('normal', planetaimg5);
+}
+
+function planeta6(x, y){
+  var planetaimg6 = PegaImagem('planeta 6');
+  planeta6 = createSprite(x, y);
+  planeta6.addAnimation('normal', planetaimg6);
+}
+
+function planeta7(x, y){
+  var planetaimg7 = PegaImagem('planeta 7');
+  planeta7 = createSprite(x, y);
+  planeta7.addAnimation('normal', planetaimg7);
+}
+
+function planeta8(x, y){
+  var planetaimg8 = PegaImagem('planeta 8');
+  planeta8 = createSprite(x, y);
+  planeta8.addAnimation('normal', planetaimg8);
+}
