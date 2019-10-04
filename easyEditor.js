@@ -338,3 +338,7 @@ function pontoDeAtração(nome,f,pontoX,pontoY){
 function velocidadeMaxima(nome,velocidade){
   nome.maxSpeed = velocidade;
 }
+
+function colidir(nome,objeto){
+  nome.collide(objeto);
+}
