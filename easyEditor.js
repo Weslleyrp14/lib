@@ -338,3 +338,23 @@ function pontoDeAtração(nome,f,pontoX,pontoY){
 function velocidadeMaxima(nome,velocidade){
   nome.maxSpeed = velocidade;
 }
+
+function colidir(nome,objeto){
+  nome.collide(objeto);
+}
+
+function paredes(q){
+  //	walls = new Group();
+	for (var i = 0; i < 7; i++){
+		var skipY = Math.floor(random(0,7));
+		//console.log(skipY);
+		for (var j = 0; j < 7; j++){
+			if (j === skipY){
+				continue;
+			}
+			var wall = createSprite(width/8 + (width/8 * i),height/14 + (height/7 * j), 30, 100);
+			wall.shapeColor = color(255 * i/7,50,50);
+			q.add(wall);
+		}
+	}
+}
