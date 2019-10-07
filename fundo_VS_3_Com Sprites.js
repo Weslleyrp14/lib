@@ -29,7 +29,9 @@ function carregarFundos(){
    
     nave1= loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/nave_espacial_1.png'); 
    
-    nave2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/nave_espacial_2.png');     
+    nave2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/nave_espacial_2.png');  
+    
+    selva = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/selva.png');
    
 }
 
