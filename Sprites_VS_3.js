@@ -459,6 +459,6 @@ function planeta8(x, y){
 
 function foguete(x,y){
   var fogueteimg = PegaImagem('foguete');
-  foguete = createSprite(x,y);
+  foguete = createSprite(x,y,30,30);
   foguete.addAnimation('normal',fogueteimg);
 }
