@@ -462,3 +462,35 @@ function foguete(x,y){
   foguete = createSprite(x,y,30,30);
   foguete.addAnimation('normal',fogueteimg);
 }
+
+function macaco(x,y){
+  var macacoimg = PegaImagem('macaco');
+  macaco = createSprite(x,y);
+  macaco.addAnimation('normal',macacoimg);
+}
+
+function fruta(x,y){
+  var frutaimg = PegaImagem('fruta1');
+  fruta = createSprite(x,y);
+  fruta.addAnimation('normal',frutaimg);
+}
+function fruta2(x,y){
+  var frutaimg = PegaImagem('fruta2');
+  fruta2 = createSprite(x,y);
+  fruta2.addAnimation('normal',frutaimg);
+}
+function fruta3(x,y){
+  var frutaimg = PegaImagem('fruta3');
+  fruta3= createSprite(x,y);
+  fruta3.addAnimation('normal',frutaimg);
+}
+function fruta4(x,y){
+  var frutaimg = PegaImagem('fruta4');
+  fruta4 = createSprite(x,y);
+  fruta4.addAnimation('normal',frutaimg);
+}
+function fruta5(x,y){
+  var frutaimg = PegaImagem('fruta5');
+  fruta5 = createSprite(x,y);
+  fruta5.addAnimation('normal',frutaimg);
+}
