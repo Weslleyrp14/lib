@@ -220,7 +220,7 @@ function esquerdaEdireita(nome, v) {
     if (keyDown(RIGHT_ARROW) && nome.position.x < (width - (nome.width / 2))) {
       nome.position.x += v;
     }
-    if (keyDown(LEFT_ARROW) && nome.position.x > (astronauta2.width / 2)) {
+    if (keyDown(LEFT_ARROW) && nome.position.x > (nome.width / 2)) {
       nome.position.x -= v;
     }
 }
