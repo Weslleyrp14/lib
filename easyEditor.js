@@ -358,3 +358,7 @@ function paredes(q){
 		}
 	}
 }
+
+function aleatorio(...args);{
+  return random(...args);
+}
