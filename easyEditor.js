@@ -359,6 +359,6 @@ function paredes(q){
 	}
 }
 
-function aleatorio(...args);{
+function aleatorio(...args){
   return random(...args);
 }
