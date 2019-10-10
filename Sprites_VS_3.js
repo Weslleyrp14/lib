@@ -494,3 +494,21 @@ function fruta5(x,y){
   fruta5 = createSprite(x,y);
   fruta5.addAnimation('normal',frutaimg);
 }
+
+function leao(x,y){
+  var leaoimg = PegaImagem('leao');
+  leao = createSprite(x,y);
+  leao.addAnimation('normal',leaoimg);
+}
+
+function girafa(x,y){
+  var girafaimg = PegaImagem('girafa');
+  girafa = createSprite(x,y);
+  girafa.addAnimation('normal',girafaimg);
+}
+
+function pinguim(x,y){
+  var pinguimimg = PegaImagem('pinguim');
+  pinguim = createSprite(x,y);
+  pinguim.addAnimation('normal',pinguimimg);
+}
