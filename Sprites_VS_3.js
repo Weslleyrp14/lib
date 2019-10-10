@@ -512,3 +512,9 @@ function pinguim(x,y){
   pinguim = createSprite(x,y);
   pinguim.addAnimation('normal',pinguimimg);
 }
+
+function bola(x,y){
+  var bolaimg = PegaImagem('bola');
+  bola = createSprite(x,y);
+  bola.addAnimation('normal',bolaimg);
+}
