@@ -36,5 +36,9 @@ function carregarFundos(){
     aniversario = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/aniversario.png');
     
    aniversarioCorte = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/aniversarioCorte.png');
+
+   pistaDeCorrida = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista.png');
+
+   pistaDeCorrida2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista2.png');
 }
 
