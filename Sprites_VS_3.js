@@ -548,7 +548,7 @@ function animalcorrendo3(x,y){
   animalcorrendo3 = createSprite(x,y);
   animalcorrendo3.addAnimation('normal',correndo3img);
 }
-
+//
 function animalcorrendo4(x,y){
   var correndo4img = PegaImagem('animalcorrendo4');
   animalcorrendo4 = createSprite(x,y);
