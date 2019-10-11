@@ -538,7 +538,7 @@ function teste1(x,y){
 }
 
 function teste2(x,y){
-  var correndo2img = PegaImagem('animalcorrendo2');
+  var correndo2img = PegaImagem('teste2');
   correndo2 = createSprite(x,y);
   correndo2.addAnimation('normal',correndo2img);
 }
