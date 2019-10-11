@@ -518,3 +518,15 @@ function bola(x,y){
   bola = createSprite(x,y);
   bola.addAnimation('normal',bolaimg);
 }
+
+function sapo(x,y){
+  var sapoimg = PegaImagem('sapo');
+  sapo = createSprite(x,y);
+  sapo.addAnimation('normal',sapoimg);
+}
+
+function inseto1(x,y){
+  var inseto1img = PegaImagem('inseto1');
+  inseto1 = createSprite(x,y);
+  sapinseto1o.addAnimation('normal',inseto1img);
+}
