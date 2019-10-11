@@ -531,22 +531,22 @@ function inseto1(x,y){
   sapinseto1o.addAnimation('normal',inseto1img);
 }
 
-function teste1(x,y){
+function animalcorrendo1(x,y){
   var correndo1img = PegaImagem('animalcorrendo1');
-  correndo1 = createSprite(x,y);
-  correndo1.addAnimation('normal',correndo1img);
+  animalcorrendo1 = createSprite(x,y);
+  animalcorrendo1.addAnimation('normal',correndo1img);
 }
 
-function teste2(x,y){
+function animalcorrendo2(x,y){
   var correndo2img = PegaImagem('teste2');
-  correndo2 = createSprite(x,y);
-  correndo2.addAnimation('normal',correndo2img);
+  animalcorrendo2 = createSprite(x,y);
+  animalcorrendo2.addAnimation('normal',correndo2img);
 }
 
 function animalcorrendo3(x,y){
   var correndo3img = PegaImagem('animalcorrendo3');
-  correndo3 = createSprite(x,y);
-  correndo3.addAnimation('normal',correndo3img);
+  animalcorrendo3 = createSprite(x,y);
+  animalcorrendo3.addAnimation('normal',correndo3img);
 }
 
 function animalcorrendo4(x,y){
