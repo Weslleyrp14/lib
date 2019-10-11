@@ -362,3 +362,11 @@ function paredes(q){
 function aleatorio(...args){
   return random(...args);
 }
+
+function sorteiaInsetos(j, q) {
+  for(var i = 0; i<j; i++) {
+      var coin = createSprite(random(100, width-100), random(100, height-100));
+      coin.addAnimation("adiciona",PegaImagem('inseto1'));
+      coin.addToGroup(q);
+        }
+}
