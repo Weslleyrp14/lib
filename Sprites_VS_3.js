@@ -560,3 +560,10 @@ function camaleao1(x,y){
  camaleao1 = createSprite(x,y);
  camaleao1.addAnimation('normal',camaleao1img);
 }
+
+function camaleao2(x,y){
+  var camaleao2img = PegaImagem('camaleao2');
+  camaleao2 = createSprite(x,y);
+  camaleao2.addAnimation('normal',camaleao2img);
+ }
+ 
