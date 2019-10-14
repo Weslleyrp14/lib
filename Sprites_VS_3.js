@@ -548,9 +548,15 @@ function animalcorrendo3(x,y){
   animalcorrendo3 = createSprite(x,y);
   animalcorrendo3.addAnimation('normal',correndo3img);
 }
-//
+
 function animalcorrendo4(x,y){
   var correndo4img = PegaImagem('animalcorrendo4');
   animalcorrendo4 = createSprite(x,y);
   animalcorrendo4.addAnimation('normal',correndo4img);
+}
+
+function camaleao1(x,y){
+ var camaleao1img = PegaImagem('camaleao');
+ camaleao1 = createSprite(x,y);
+ camaleao1.addAnimation('normal',camaleao1img);
 }
