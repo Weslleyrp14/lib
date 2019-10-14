@@ -24,7 +24,17 @@ fimEspacial = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/m
  
 nave1= loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/nave_espacial_1.png'); 
  
-nave2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/nave_espacial_2.png');     
+nave2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/nave_espacial_2.png'); 
+
+selva = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/selva.png');
+
+aniversario = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/aniversario.png');
+
+aniversarioCorte = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/aniversarioCorte.png');
+
+pistaDeCorrida = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista.png');
+
+pistaDeCorrida2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista2.png');
   
 fantasma3.addAnimation('normal', fantasma3img1, fantasma3img2);
 
