@@ -567,3 +567,8 @@ function camaleao2(x,y){
   camaleao2.addAnimation('normal',camaleao2img);
  }
  
+ function galho(x,y){
+  var galhoimg = PegaImagem('galho');
+  galho = createSprite(x,y);
+  galho.addAnimation('normal',galhoimg);
+ }
