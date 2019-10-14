@@ -556,7 +556,7 @@ function animalcorrendo4(x,y){
 }
 
 function camaleao1(x,y){
- var camaleao1img = PegaImagem('camaleao');
+ var camaleao1img = PegaImagem('camaleao1');
  camaleao1 = createSprite(x,y);
  camaleao1.addAnimation('normal',camaleao1img);
 }
