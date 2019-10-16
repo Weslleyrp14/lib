@@ -4,7 +4,6 @@ function fundo(nome){
 }
 
 function carregarFundos(){
-  createCanvas(500, 500);
   espacial1 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-1.png');      
 
   espacial2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/fundo/master/espa%C3%A7o-2.png');      
@@ -40,5 +39,7 @@ function carregarFundos(){
    pistaDeCorrida = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista.png');
 
    pistaDeCorrida2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista2.png');
+
+   campoFutebol = loadImage('https://github.com/fabiojavaroni/imagens/blob/master/campo1.png');
 }
 

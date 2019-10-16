@@ -572,3 +572,15 @@ function camaleao2(x,y){
   galho = createSprite(x,y);
   galho.addAnimation('normal',galhoimg);
  }
+
+ function placaGol1(x,y){
+  var gol1img = PegaImagem('placagol1');
+  placaGol1 = createSprite(x,y);
+  placaGol1.addAnimation('normal',gol1img);
+ }
+
+ function placaGol2(x,y){
+  var gol2img = PegaImagem('placagol2');
+  placaGol2 = createSprite(x,y);
+  placaGol2.addAnimation('normal',gol2img);
+ }
