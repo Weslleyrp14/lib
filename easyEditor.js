@@ -370,3 +370,7 @@ function sorteiaInsetos(j, q) {
       coin.addToGroup(q);
         }
 }
+
+function empurrar(sprite,sprite2){
+  sprite.displace(sprite2);
+}
