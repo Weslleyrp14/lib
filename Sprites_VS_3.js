@@ -596,3 +596,71 @@ function camaleao2(x,y){
   formiga2 = createSprite(x,y,10,10);
   formiga2.addAnimation('normal',formiga2img);
  }
+
+ function chuvaAbelhas(){
+  frameRate(30)
+ Abelha = new Group();
+for (var i = 0; i < numAbelhas; i++) {
+ var b = createSprite(random(0, width), random(-800, 0));
+ b.addImage(
+   loadImage(
+     "https://raw.githubusercontent.com/fabiojavaroni/imagens/master/abelha.png"
+   )
+ );
+ Abelha.add(b);
+}
+}
+
+function adicionarMao(){
+ mao = createSprite(200, 200);
+ mao.addImage(
+   loadImage(
+     "https://raw.githubusercontent.com/fabiojavaroni/imagens/master/mao.png"
+   )
+ );
+}
+
+function explosaoAbelhas(){
+ explosao = createSprite(-50, -50);
+ explosao.addImage(
+   loadImage(
+     "https://raw.githubusercontent.com/fabiojavaroni/imagens/master/explosao.png"
+   )
+ );
+}
+
+function Abelhas(){
+ textSize(50);
+ mao.position.x = mouseX;
+ mao.position.y = mouseY;
+
+ for (var j = 0; j < numAbelhas; j++) {    
+     
+   Abelha[j].velocity.y = random(1, 25);
+
+   if (mao.overlap(Abelha[j]) && mouseIsPressed) {
+     
+     explosao.position.x = Abelha[j].position.x;
+     explosao.position.y = Abelha[j].position.y;
+    
+     Abelha[j].position.x = -50;
+     Abelha[j].position.y = -50;
+     
+     Abelha[j].visibility = false;
+     
+     placar++;
+   } else {
+   }
+   
+   if (Abelha[j].position.y > height) {
+     Abelha[j].position.y = random(-500, 0);      
+   }
+ }
+
+  if ( placar >= numAbelhas) {
+       text("Você Venceu!!!",130,height/2);
+       noLoop();   
+  }
+
+ drawSprites();
+}
