@@ -587,12 +587,12 @@ function camaleao2(x,y){
 
  function formiga1(x,y){
   var formiga1img = PegaImagem('formiga1');
-  formiga1 = createSprite(x,y,30,30);
+  formiga1 = createSprite(x,y,10,10);
   formiga1.addAnimation('normal',formiga1img);
  }
 
  function formiga2(x,y){
   var formiga2img = PegaImagem('formiga2');
-  formiga2 = createSprite(x,y,30,30);
+  formiga2 = createSprite(x,y,10,10);
   formiga2.addAnimation('normal',formiga2img);
  }
