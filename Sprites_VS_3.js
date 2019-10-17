@@ -584,3 +584,15 @@ function camaleao2(x,y){
   placaGol2 = createSprite(x,y);
   placaGol2.addAnimation('normal',gol2img);
  }
+
+ function formiga1(x,y){
+  var formiga1img = PegaImagem('formiga1');
+  formiga1 = createSprite(x,y);
+  formiga1.addAnimation('normal',formiga1img);
+ }
+
+ function formiga2(x,y){
+  var formiga2img = PegaImagem('formiga2');
+  formiga2 = createSprite(x,y);
+  formiga2.addAnimation('normal',formiga2img);
+ }

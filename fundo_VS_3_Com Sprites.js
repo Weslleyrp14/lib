@@ -40,6 +40,6 @@ function carregarFundos(){
 
    pistaDeCorrida2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista2.png');
 
-   campoFutebol = loadImage('https://github.com/fabiojavaroni/imagens/blob/master/campo1.png');
+   campoFutebol = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/campo1.png');
 }
 
