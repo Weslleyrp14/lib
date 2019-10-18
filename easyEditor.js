@@ -157,8 +157,8 @@ function adicionaVelocidade(...args){
 function adicionaAoGrupo(...args){
   return addToGroup(...args);
 }
-function pontoDeAtracao(nome,força,x,y){
-  nome.attractionPoint(força,x,y);
+function pontoDeAtracao(nome,velocidade,x,y){
+  nome.attractionPoint(velocidade,x,y);
 }
 function pulo(...args){
   return bounce(...args);
