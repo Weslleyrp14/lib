@@ -157,8 +157,8 @@ function adicionaVelocidade(...args){
 function adicionaAoGrupo(...args){
   return addToGroup(...args);
 }
-function pontoDeAtracao(...args){
-  return attractionPoint(...args);
+function pontoDeAtracao(nome,força,x,y){
+  nome.attractionPoint(força,x,y);
 }
 function pulo(...args){
   return bounce(...args);
@@ -331,10 +331,11 @@ function mostraSom() {
 function darVelocidade(nome,velocidade,direcao) {
   nome.setSpeed(velocidade, direcao);
 }
+/*
 function pontoDeAtração(nome,f,pontoX,pontoY){
   nome.attractionPoint(f, pontoX, pontoY);
 }
-
+*/
 function velocidadeMaxima(nome,velocidade){
   nome.maxSpeed = velocidade;
 }
@@ -373,4 +374,8 @@ function sorteiaInsetos(j, q) {
 
 function empurrar(sprite,sprite2){
   sprite.displace(sprite2);
+}
+
+function velocidadeMaxima(nome,velocidade){
+  nome.limitSpeed(velocidade);
 }
