@@ -447,3 +447,9 @@ function Abelhas(){
 
  drawSprites();
 }
+
+function falar(texto){
+  var foo = new p5.Speech(); // speech synthesis object
+  foo.speak(texto); // say something
+
+}
