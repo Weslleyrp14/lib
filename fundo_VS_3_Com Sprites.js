@@ -42,5 +42,9 @@ function carregarFundos(){
    pistaDeCorrida2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/pista2.png');
 
    campoFutebol = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/campo1.png');
+
+   futuristico1 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/futuristico1.png');
+
+   futuristico2 = loadImage('https://raw.githubusercontent.com/fabiojavaroni/imagens/master/fututiristico2.png');
 }
 
