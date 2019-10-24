@@ -461,3 +461,7 @@ function rodar(nome,v){
 function mouseFoiPressionado(){
   return mouseIsPressed;
 }
+
+function textoFonte(...args){
+ return textFont(...args);
+}
