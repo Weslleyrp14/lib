@@ -596,3 +596,27 @@ function camaleao2(x,y){
   formiga2 = createSprite(x,y,10,10);
   formiga2.addAnimation('normal',formiga2img);
  }
+
+ function robo1(x,y){
+  var robo1img = PegaImagem('robo1');
+  formiga1 = createSprite(x,y,10,10);
+  formiga1.addAnimation('normal',robo1img);
+ }
+
+ function robo2(x,y){
+  var robo2img = PegaImagem('robo2');
+  formiga2 = createSprite(x,y,10,10);
+  formiga2.addAnimation('normal',robo2img);
+ }
+
+ function robo3(x,y){
+  var robo3img = PegaImagem('robo3');
+  formiga3 = createSprite(x,y,10,10);
+  formiga3.addAnimation('normal',robo3img);
+ }
+
+ function robo4(x,y){
+  var robo4img = PegaImagem('robo4');
+  formiga4 = createSprite(x,y,10,10);
+  formiga4.addAnimation('normal',robo4img);
+ }
