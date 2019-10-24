@@ -453,3 +453,11 @@ function falar(texto){
   foo.speak(texto); // say something
 
 }
+
+function rodar(nome,v){
+  nome.rotation -= v;
+}
+
+function mouseFoiPressionado{
+  return mouseIsPressed;
+}
