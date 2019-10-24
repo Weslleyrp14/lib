@@ -55572,17 +55572,17 @@
                         value: newValue,
                         writable: true
                       });
-
+/*
                       log(
                         'You just changed the value of "' +
                           prop +
                           '", which was ' +
                           "a p5 function. This could cause problems later if you're " +
                           'not careful.'
-                      );
+                      );*/
                     }
                   });
-                } catch (e) {
+                } catch (e) {/*
                   log(
                     'p5 had problems creating the global function "' +
                       prop +
@@ -55592,7 +55592,7 @@
                       'else.'
                   );
 
-                  globalObject[prop] = value;
+                  globalObject[prop] = value;*/
                 }
               } else {
                 globalObject[prop] = value;
