@@ -457,3 +457,7 @@ function falar(texto){
 function rodar(nome,v){
   nome.rotation -= v;
 }
+
+function mouseFoiPressionado{
+  return mouseIsPressed;
+}
