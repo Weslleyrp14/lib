@@ -458,6 +458,6 @@ function rodar(nome,v){
   nome.rotation -= v;
 }
 
-function mouseFoiPressionado{
+function mouseFoiPressionado(){
   return mouseIsPressed;
 }
